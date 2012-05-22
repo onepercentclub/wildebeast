@@ -1,0 +1,15 @@
+Django==1.4
+django_extensions
+django_debug_toolbar
+raven
+South
+django-celery
+sorl-thumbnail
+
+# Optional requirements of django-devserver
+sqlparse
+werkzeug
+# guppy - tracks memory usage (required for MemoryUseModule)
+# line_profiler - does line-by-line profiling (required for LineProfilerModule)
+django-devserver
+
